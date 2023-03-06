@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ .underline-input {
+    border: 1px solid #EAEBE7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+}
+
+.firstinput {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+  
+.lastinputs {
+    width: 50%;
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid #EAEBE7;
+    background-color: #f2f2f2;
+  } 
+
+.maininput {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid #EAEBE7;
+    background-color: #f2f2f2;
+}
+
+.maininput1 {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid #EAEBE7;
+    background-color: #f2f2f2;
+}
+
+
+
+label {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.age {
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.age1 {
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+.text {
+   margin-top: 35px;
+   margin-right: 40px;
+   font-size: 14px;
+}
+
+.text1 {
+    margin-top: 35px;
+    margin-right: 40px;
+    font-size: 14px;
+    width: 60%;
+ }
+
+
+
+
+
+
+
+
+
+.pconsent {
+    margin-top: 5px;
+    text-align: start;
+    display: inline-block;
+    
+}
+
+.options {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.checkbox-points {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    overflow: auto;
+    
+}
+
+ .fonts {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.fontsend {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 150px;
+}
+.text_ft{
+    font-family: Poppins;  
+    padding: 35px;
+    background-color: #f2f2f2;
+}
+.consent9_header9{
+    color: rgb(17 108 110);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.bg_consent9{
+    background-color: #fff;
+    height: 100%;
+    border-radius: 5px;
+    padding: 35px;
+}
+.header9{
+    line-height: 50px;
+}
+.consent9_header{
+    color: rgb(17 108 110);
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.consent9_text{
+    margin: 8px 0;
+    color: #353535;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.consent9_container{
+    margin: 10px 0px;
+    text-align: justify;
+    font-size: 14px;
+    color: #353535;
+}
+.bg_consentform9{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 240px;
+    width: 150%;
+    margin-left: 20px;
+}
+#target{
+    width: 40%;
+    height: 10%;
+    padding: 5px 12px;
+    margin: 30px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .consent9_date{
+    margin-bottom: 10px;
+  }
+
+  #clear_btn, #save_btn{
+    text-align: center;
+    background-color: rgb(228,240,240);
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 100px;
+    
+}
+#clear_btn:hover, #save_btn:hover{
+    background-color: #2f8b88;
+    color: #ffffff;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .maininput1 {
+        width: 30%;  
+    }
+
+    #target{
+        width: 15%;
+        margin-top: 40px;
+      }
+
+    .bg_consentform9{
+        height: 130px;
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    .consent9_text{
+        font-size: 18px;
+    }
+
+    #clear_btn, #save_btn{
+        
+        width: 100%;
+        margin-left: 5px;
+        margin-top: -460px;
+       
+        
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .consent9_header9{
+        font-size: 18px;
+        
+    }
+
+    .text1 {
+        width: 100%;
+     }
+}
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  

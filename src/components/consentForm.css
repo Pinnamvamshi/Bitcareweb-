@@ -1,0 +1,145 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    width: 1300px;
+    margin-left: 25px;
+    
+}
+
+h2 {
+    color: #353535;
+    margin: 20px 20px;
+}
+
+h3 {
+    color: #353535;
+    margin: 20px 20px;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px; 
+}
+
+.confirmtext {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px; 
+}
+
+.bg_consentform2 {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 150px;
+    width: 30%;
+    margin-left: 200px;
+}
+
+input {
+    width: 20px;
+    height: 15px;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.points {
+    font-size: 15px;
+    font-weight: 400; 
+    margin: 20px;
+    text-align: start; 
+    display: list-item; 
+}
+
+.consent2_date{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#target{
+    width: 25%;
+    margin: 0px 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.checkboxgroup {
+    display: flex;
+    
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-container {
+    width: 90%;
+    margin-left: 40px;  
+}
+
+.confirm-box {
+    display: flex;
+    width: 90%;
+    height: 40%;
+    background-color: lightgray;
+    background-size: cover;
+    margin: 30px;
+}
+
+.last-line-name {
+    text-decoration-line: overline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 150px;
+    
+}
+
+.lastlinedate{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 190px;
+    margin-bottom: 50px;
+    
+}
+
+#clear_btn, #save_btn{
+    
+    text-align: center;
+    width: 100%;
+    background-color: rgb(228,240,240);
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+#clear_btn:hover, #save_btn:hover{
+    background-color: #2f8b88;
+    color: #ffffff;
+}
+
+.sign-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@media (max-width: 987px)
+{
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #target{
+        width: 50%;
+    }
+}
+
+
